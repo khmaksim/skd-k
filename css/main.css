@@ -1,0 +1,287 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-y: scroll;
+    color: #575746;
+    font-size: 16px;
+    font-family: "trebuchet ms";
+}
+
+a {
+    color: #575746;
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+    margin-left: 40px;
+}
+figure {
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+}
+#top_slogan {
+    background: url(../images/top_slogan_bg.jpg) top left no-repeat;
+    height: 166px;
+}
+
+#logo {
+    background: url(../images/logo_bg.jpg) top left no-repeat;
+    width: 286px;
+    height: 111px;
+}
+
+#grass {
+    background: url(../images/grass_bg.jpg) top left no-repeat;
+    width: 694px;
+    height: 76px;
+}
+
+#menu {
+    background: url(../images/menu_bg.jpg) top left no-repeat;
+    width: 694px;
+    height: 35px;
+}
+
+#menu a {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0 25px;
+    display: block;
+}
+
+#menu a.on {
+    color: #000000;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#menu td.on {
+    background-color: #FFFFFF;
+}
+.wrapper {
+    position: relative;
+    float: left;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+.name {
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.todo {
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.phone {
+    font-size: 22px;
+    position: absolute;
+    top: 57px;
+    left: 87px;
+}
+
+.phone2 {
+    font-size: 22px;
+    position: absolute;
+    top: 80px;
+    left: 87px;
+}
+a.breadcrumbs:hover {
+    text-decoration: none;
+}
+
+div.breadcrumbs {
+    margin-top: 10px;
+    font-size: 30px;
+}
+span#address,
+span#telephone, 
+span#email {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content {
+    margin: 15px 0px;
+    line-height: 20px;
+    float: left;
+}
+.content p {
+    margin-bottom: 15px;
+}
+.onecolumn {
+    width: 600px;
+}
+.twocolumn {
+    width: 360px;
+    margin-right: 125px;
+}
+.content a {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    background: url(../images/bottom_bg.jpg) top left no-repeat;
+    width: 980px;
+    height: 142px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+footer nav {
+    width: 100%;
+    text-align: right;
+    line-height: 25px;
+}
+
+footer nav a {
+    color: #69AAF1;
+    margin-left: 5px;
+}
+
+footer div#contacts,
+footer div#address, 
+footer div#copyright {
+    margin-top: 10px;
+    float: left;
+}
+
+footer div#contacts a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer div#address {
+    margin-left: 30px;
+}
+
+footer div#copyright {
+    margin-left: 30px;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+}
+
+footer #telephone {
+    line-height: 2;
+    font-size: 14px;
+}
+
+footer .email {
+    line-height: 2;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div#mymap {
+    width: 600px; 
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: #e3e3e3;
+}
+#howtoget {
+    padding-left: 15px;
+    float: left; 
+    width: 365px;
+    font-size: 14px;
+}
+#howtoget p {
+    margin-bottom: 10px;
+}
+.block {
+    width: 780px;
+    height: 180px;
+    margin: 25px auto 0px auto;
+}
+.headerblock {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+.itemprice {
+    float: left;
+    width: 240px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.itemorder {
+    float: left;
+    width: 260px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.itemorder span {
+    font-size: 16px;
+}
+.fotoramawrapper {
+    margin: 0 auto;
+    width: 600px;
+}
+.fotorama img {
+    width: 75;
+    height: 75px;
+}
+.rowphotos {
+    float: left;
+    width: 980px;
+    height: 250px;
+}
+.rowphotos figure {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.rowphotos figure.center{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.rowcontactphotos {
+    float: left;
+    width: 980px;
+    height: 300px;
+}
+.rowcontactphotos figure{
+    float: left;
+    width: 350px;
+    height: 250px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?25739652');
+      src: url('../font/fontello.eot?25739652#iefix') format('embedded-opentype'),
+           url('../font/fontello.woff?25739652') format('woff'),
+           url('../font/fontello.ttf?25739652') format('truetype'),
+           url('../font/fontello.svg?25739652#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
