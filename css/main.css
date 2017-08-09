@@ -93,7 +93,7 @@ nav {
     width: 674px;
     height: 35px;
 }
-#menu a.on {
+#menu .active a {
     color: #000;
     text-decoration: underline;
 }
@@ -108,14 +108,12 @@ figure {
     top: 5px;
     left: 20px;
 }
-
 .todo {
     font-size: 12px;
     position: absolute;
     top: 40px;
     left: 20px;
 }
-
 .phone {
     font-size: 22px;
     position: absolute;
@@ -134,13 +132,6 @@ a.breadcrumbs:hover {
 .breadcrumbs {
     margin-top: 15px;
     font-size: 20px;
-}
-span#address,
-span#telephone, 
-span#email {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.5;
 }
 .content {
     margin-top: 15px;
@@ -206,13 +197,14 @@ div#mymap {
     background-color: #e3e3e3;
 }
 #howtoget {
-    padding-left: 15px;
+    padding-left: 20px;
     float: left; 
-    width: 365px;
+    width: 360px;
     font-size: 14px;
 }
 #howtoget p {
     margin-bottom: 10px;
+    text-align: justify;
 }
 .block {
     width: 780px;
@@ -245,29 +237,21 @@ div#mymap {
 }
 .rowphotos {
     float: left;
-    width: 980px;
+    width: 960px;
     height: 250px;
 }
 .rowphotos figure {
     float: left;
-    width: 300px;
+    width: 320px;
     height: 200px;
 }
 .rowphotos figure.center{
-    margin-left: 40px;
-    margin-right: 40px;
+    text-align: center
 }
-.rowcontactphotos {
+.photocontact {
     float: left;
-    width: 980px;
-    height: 300px;
-}
-.rowcontactphotos figure{
-    float: left;
-    width: 350px;
+    width: 480px;
     height: 250px;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 @font-face {
       font-family: 'fontello';
@@ -280,7 +264,8 @@ div#mymap {
       font-style: normal;
 }
 .metrika {
-    max-width: 960px;
+    float: left;
+    width: 960px;
     margin: 0 auto;
     text-align:center;
 }
