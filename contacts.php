@@ -41,12 +41,14 @@
             <p><span style="background: #A2D6DE">Вариант 3</span>
             <br>От МКАД по Волоколамскому шоссе до поворота на Аникеевку. Двигаться по главной дороге. После знака Нахабино, через 500 м повернуть направо к КПП.</p>
         </div>
-        <figure class="photocontact">
-            <img src="images/49.jpg" />
-        </figure>
-        <figure class="photocontact">
-            <img src="images/50.jpg" />
-        </figure>
+        <div class="rowphotos photocontact">
+            <figure>
+                <img src="images/49.jpg" />
+            </figure>
+            <figure>
+                <img src="images/50.jpg" />
+            </figure>
+        </div>
     </div>
     <?php
     include_once './footer.php';

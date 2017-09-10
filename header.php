@@ -1,6 +1,6 @@
 <header>
-    <div id="top_slogan"></div>
     <nav class="container">
+    <div id="top_slogan"></div>
         <div id="logo">
             <div class="name">ООО &laquo;СКД&raquo;</div>
             <div class="todo">ошиповка шин для легковых автомобилей</div>
@@ -10,12 +10,12 @@
     </div>
     <div id="grass"></div>
     <div class="nav-toggle"><span></span></div>
-    <ul id="menu">
-        <li><a href="/">Главная</a></li>
-        <li><a href="/company.php">О компании</a></li>
-        <li><a href="/price.php">Ценовая информация</a></li>
-        <li><a href="/photo.php">Фотогалерея</a></li>
-        <li><a href="/contacts.php">Контакты</a></li>
-    </ul>
-</nav>
+        <ul id="menu">
+            <li><a href="/">Главная</a></li>
+            <li><a href="/company.php">О компании</a></li>
+            <li><a href="/price.php">Ценовая информация</a></li>
+            <li><a href="/photo.php">Фотогалерея</a></li>
+            <li><a href="/contacts.php">Контакты</a></li>
+        </ul>
+    </nav>
 </header>

@@ -72,31 +72,6 @@
                 <br>заказа</span>
             </div>
         </div>
-        <div class="block" style="height: 250px">
-            <h2 class="headerblock">Цены на сезонное хранение шин ( комплект / <i class="demo-icon icon-rouble">&#xe800;</i> )</h2>
-            <table id="pricestorage">
-                <tr>
-                    <th>Радиус</th>
-                    <th>Без диска</th>
-                    <th>На диске</th>
-                </tr>
-                <tr>
-                    <td>R = 12-14</td>
-                    <td>1800</td>
-                    <td>2000</td>
-                </tr>
-                <tr>
-                    <td>R = 15-17</td>
-                    <td>2000</td>
-                    <td>2200</td>
-                </tr>
-                <tr>
-                    <td>R = 18-21</td>
-                    <td>2400</td>
-                    <td>3000</td>
-                </tr>
-            </table>
-        </div>
         <figure>
             <img src="images/45.jpg" />
         </figure>

@@ -1,4 +1,5 @@
 <footer>
+    <div class="container">
     <nav>
         <a href="./">Главная</a>
         <a href="./company.php">О компании</a>
@@ -70,6 +71,7 @@
             </script>
             <!--/LiveInternet-->
     </div>
+</div>
 </footer>
 <script src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript">
@@ -81,5 +83,8 @@
             if(cur_url == link) 
                 $(this).addClass('active');
         });
+    });
+    $('.nav-toggle').on('click', function() {
+        $('#menu').toggleClass('active');
     });
 </script>

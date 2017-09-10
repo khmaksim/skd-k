@@ -1,23 +1,32 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
 <url>
-	<loc>http://skd-k.ru/</loc>
-	<lastmod>2017-04-10T22:35:08+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://skd-k.ru/company.php</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
-	<loc>http://skd-k.ru/company.php</loc>
-	<lastmod>2017-04-10T22:35:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://skd-k.ru/</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
-	<loc>http://skd-k.ru/price.php</loc>
-	<lastmod>2017-04-10T22:35:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://skd-k.ru</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
-	<loc>http://skd-k.ru/contacts.php</loc>
-	<lastmod>2017-04-10T22:35:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://skd-k.ru/photo.php</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://skd-k.ru/price.php</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://skd-k.ru/contacts.php</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 </urlset>

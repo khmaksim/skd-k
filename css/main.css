@@ -39,13 +39,14 @@ header:after, .container:after, footer:after {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 960px;
+    max-width: 980px;
+    padding: 0 10px
 }
 header {
     width: 100%;
     /*background: white;*/
     /*box-shadow: 3px 3px 1px rgba(0,0,0,.05);*/
-    max-width: 960px;
+    max-width: 980px;
     position: relative;
     margin: 0 auto;
 }
@@ -75,9 +76,13 @@ nav {
 }
 #menu {
     float: right;
+    background: url(../images/menu_bg.jpg) top left no-repeat;
+    width: 674px;
+    height: 35px;
 }
 #menu li {
     display: inline-block;
+    margin-left: 15px
 }
 #menu a {
     color: #fff;
@@ -85,17 +90,51 @@ nav {
     letter-spacing: 1px;
     font-weight: 600;
     display: block;
-    margin-right: 20px;
     line-height: 35px;
-}
-#menu {
-    background: url(../images/menu_bg.jpg) top left no-repeat;
-    width: 674px;
-    height: 35px;
+    text-align: center;
 }
 #menu .active a {
     color: #000;
     text-decoration: underline;
+}
+.nav-toggle {
+    display: none;
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid white; 
+    border-radius: 3px;
+    background: #b71c1c;
+    cursor: pointer;
+}
+.nav-toggle span {
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: white;
+}
+.nav-toggle span:before, .nav-toggle span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+.nav-toggle span:before {
+    top: -10px;
+}
+.nav-toggle span:after {
+    bottom: -10px;
+}
+#menu.active {
+    max-height: 123px;
 }
 figure {
     display: block;
@@ -134,9 +173,9 @@ a.breadcrumbs:hover {
     font-size: 20px;
 }
 .content {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
+    margin: 15px 20px 0 20px;
     line-height: 20px;
-    float: left;
 }
 .content p {
     margin-bottom: 15px;
@@ -152,7 +191,7 @@ footer {
     font-size: 14px;
     line-height: 1.5;
     width: 100%;
-    max-width: 960px;
+    max-width: 980px;
     position: relative;
     margin: 0 auto;
 }
@@ -236,21 +275,17 @@ div#mymap {
     height: 75px;
 }
 .rowphotos {
+    width: 100%;
+    text-align: center;
     float: left;
-    width: 960px;
-    height: 250px;
 }
 .rowphotos figure {
-    float: left;
-    width: 320px;
+    width: 300px;
     height: 200px;
+    display: inline-block;
 }
-.rowphotos figure.center{
-    text-align: center
-}
-.photocontact {
-    float: left;
-    width: 480px;
+.photocontact figure{
+    width: 450px;
     height: 250px;
 }
 @font-face {
@@ -265,7 +300,68 @@ div#mymap {
 }
 .metrika {
     float: left;
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
     text-align:center;
+}
+@media (max-width: 980px) {
+#top_slogan, 
+#logo,
+#grass {
+    display: none;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    padding: 0 2%;
+    margin: 0px
+}
+header {
+    background: #b71c1c;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+.nav-toggle {
+    display: block;
+}
+header {
+    padding: 10px 0;
+}
+/* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */ 
+#menu {
+    max-height: 0;
+    background: white;
+    float: none;
+    position: absolute;
+    overflow: hidden;
+    top: 63px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+#menu li {
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #EBEBE3;
+    margin-right: 0;
+}
+div#mymap {
+    width: 100%; 
+}
+@media (max-width: 480px) {
+nav {
+    text-align: center;
+}
+/* отменяем обтекание для логотипа */
+.logo {
+    float: none;
+    margin-bottom: 15px;
+}
+/* позиционируем меню на увеличившуюся высоту шапки */
+#menu {
+    top: 118px;
 }

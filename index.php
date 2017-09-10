@@ -21,7 +21,7 @@
     ?>
     <div class="container">
         <div class="breadcrumbs">Главная</div>
-        <div class="content twocolumn">
+        <div class="content">
             <h2 class="caption">Мы шипуем шины с 2006 года</h2>
             <p>Оборудование OKU-automatic, ошировка шин отечественного и импортного производства для юридических и частных лиц.
             Ошиповка резины радиусом: R=12-13-14-15-16-17-18-19-20-21</p>
@@ -32,7 +32,7 @@
                 </ul>
             </p>
         </div>
-        <div class="content twocolumn">
+        <div class="content">
             <h2 class="caption">Хранение шин</h2>
             <ul>
                 <li>грузовые;</li>
@@ -46,7 +46,7 @@
             <figure>
                 <img src="images/9.jpg" alt="Шиповка шин в Москве"/>
             </figure>
-            <figure class="center">
+            <figure>
                 <img src="images/30.jpg" alt="Ошиповка зимних шин"/>
             </figure>
             <figure>
