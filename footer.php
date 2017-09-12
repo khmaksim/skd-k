@@ -81,7 +81,7 @@
         $('#menu li').each(function () {
             var link = $(this).find('a').attr('href');
             if(cur_url == link) 
-                $(this).addClass('active');
+                $(this).addClass('current');
         });
     });
     $('.nav-toggle').on('click', function() {

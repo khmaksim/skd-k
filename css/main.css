@@ -45,7 +45,7 @@ header:after, .container:after, footer:after {
 header {
     width: 100%;
     /*background: white;*/
-    /*box-shadow: 3px 3px 1px rgba(0,0,0,.05);*/
+    /*box-shadow: 0px 3px 1px rgba(0,0,0,.1);*/
     max-width: 980px;
     position: relative;
     margin: 0 auto;
@@ -78,7 +78,6 @@ nav {
     float: right;
     background: url(../images/menu_bg.jpg) top left no-repeat;
     width: 674px;
-    height: 35px;
 }
 #menu li {
     display: inline-block;
@@ -93,7 +92,7 @@ nav {
     line-height: 35px;
     text-align: center;
 }
-#menu .active a {
+#menu li.current a {
     color: #000;
     text-decoration: underline;
 }
@@ -134,7 +133,7 @@ nav {
     bottom: -10px;
 }
 #menu.active {
-    max-height: 123px;
+    max-height: 180px;
 }
 figure {
     display: block;
@@ -319,6 +318,9 @@ div#mymap {
     padding: 0 1%;
     margin: 0px
 }
+#menu a {
+    text-align: left;
+}
 header {
     background: #b71c1c;
     width: 100%;
@@ -334,7 +336,7 @@ header {
 /* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */ 
 #menu {
     max-height: 0;
-    background: white;
+    background: #b71c1c;
     float: none;
     position: absolute;
     overflow: hidden;
@@ -343,13 +345,15 @@ header {
     left: 0;
     margin: 0;
     padding: 0;
-    z-index: 10;
+    z-index: 3;
+    width: 100%;
 }
 #menu li {
     display: block;
     padding-left: 15px;
     border-bottom: 1px solid #EBEBE3;
     margin-right: 0;
+    float: none;
 }
 div#mymap {
     width: 100%; 
