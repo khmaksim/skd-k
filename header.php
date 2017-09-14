@@ -10,6 +10,7 @@
     </div>
     <div id="grass"></div>
     <div class="nav-toggle"><span></span></div>
+        <div id="logo_curtailed">Ошиповка</div>
         <ul id="menu">
             <li><a href="/">Главная</a></li>
             <li><a href="/company.php">О компании</a></li>

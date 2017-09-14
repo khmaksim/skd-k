@@ -1,3 +1,13 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?25739652');
+      src: url('../font/fontello.eot?25739652#iefix') format('embedded-opentype'),
+           url('../font/fontello.woff?25739652') format('woff'),
+           url('../font/fontello.ttf?25739652') format('truetype'),
+           url('../font/fontello.svg?25739652#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
 * {
     padding: 0px;
     margin: 0px;
@@ -14,19 +24,27 @@ a {
     color: #575746;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-family: "Georgia";
+    line-height: 1;   
     letter-spacing: 1px;
+    margin: 10px 0;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
 }
 h2 {
+    font-size: 18px;
+    font-weight: 600;
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
 }
 body {
     overflow-y: scroll;
     color: #575746;
     font-size: 14px;
-    font-family: "trebuchet ms";
+    font-family: "Verdana";
+    line-height: 1;
 }
 ul {
   list-style: none;
@@ -49,6 +67,9 @@ header {
     max-width: 980px;
     position: relative;
     margin: 0 auto;
+    font-family: "Verdana";
+    font-size: 12px;
+    line-height: 1;
 }
 nav {
     width: 100%; 
@@ -67,6 +88,11 @@ nav {
     position: relative;
     color: #FFFFFF;
     white-space: nowrap;
+}
+#logo_curtailed {
+    float: left;
+    color: #fff;
+    display: none;
 }
 #grass {
     background: url(../images/grass_bg.jpg) top left no-repeat;
@@ -87,7 +113,7 @@ nav {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
     display: block;
     line-height: 35px;
     text-align: center;
@@ -141,13 +167,13 @@ figure {
     margin: 10px 0px;
 }
 .name {
-    font-size: 30px;
+    font-size: 26px;
     position: absolute;
     top: 5px;
     left: 20px;
 }
 .todo {
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
     top: 40px;
     left: 20px;
@@ -156,20 +182,20 @@ figure {
     font-size: 22px;
     position: absolute;
     top: 57px;
-    left: 87px;
+    left: 20px;
 }
 .phone2 {
     font-size: 22px;
     position: absolute;
     top: 80px;
-    left: 87px;
+    left: 20px;
 }
 a.breadcrumbs:hover {
     text-decoration: underline;
 }
 .breadcrumbs {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 14px;
 }
 .content {
     /*margin-top: 15px;*/
@@ -287,16 +313,6 @@ div#mymap {
     width: 450px;
     height: 250px;
 }
-@font-face {
-      font-family: 'fontello';
-      src: url('../font/fontello.eot?25739652');
-      src: url('../font/fontello.eot?25739652#iefix') format('embedded-opentype'),
-           url('../font/fontello.woff?25739652') format('woff'),
-           url('../font/fontello.ttf?25739652') format('truetype'),
-           url('../font/fontello.svg?25739652#fontello') format('svg');
-      font-weight: normal;
-      font-style: normal;
-}
 .metrika {
     float: left;
     width: 980px;
@@ -308,6 +324,9 @@ div#mymap {
 #logo,
 #grass {
     display: none;
+}
+#logo_curtailed {
+    display: block;
 }
 #menu {
     background: none;
