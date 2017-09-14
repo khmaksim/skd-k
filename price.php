@@ -21,7 +21,7 @@
     ?>
     <div class="container">
         <div class="breadcrumbs"><a href="./" class="breadcrumbs">Главная</a>&nbsp;/&nbsp;Ценовая информация</div>
-        <div class="block">
+        <div class="content">
             <h2 class="caption">Цена формируется комплексно и стоимость ошиповки шин зависит от:</h2>
             <ol class="price-list">
                 <li>Рамера шипа:
@@ -49,8 +49,6 @@
                     </ul>
                 </li>
             </ol>
-        </div>
-        <div class="block">
             <h2 class="caption">Помимо ошиповки, в стоимость заказа включено</h2>
             <ol class="price-list">
                 <li>Разгрузка-погрузка
