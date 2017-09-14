@@ -272,24 +272,18 @@ div#mymap {
 }
 .block {
     width: 780px;
-    height: 180px;
     margin: 25px auto 0px auto;
 }
-.itemprice {
-    float: left;
-    width: 240px;
-    font-size: 16px;
-    margin: 0px 10px;
+ol {
+    margin-left: 20px;
+    line-height: 1.5;
 }
-.itemorder {
-    float: left;
-    width: 260px;
-    text-align: center;
-    font-size: 20px;
-    line-height: 1;
+ol li {
+    margin-bottom: 5px;
 }
-.itemorder span {
-    font-size: 16px;
+ol ul li {
+    margin-left: 20px;
+    display: inline;
 }
 .fotoramawrapper {
     margin: 0 auto;
