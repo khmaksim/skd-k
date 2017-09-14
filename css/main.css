@@ -79,7 +79,6 @@ nav {
     margin-top: 0px;
     height: 166px;
 }
-
 #logo {
     background: url(../images/logo_bg.jpg) top left no-repeat;
     width: 286px;
@@ -93,6 +92,9 @@ nav {
     float: left;
     color: #fff;
     display: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.2em;
 }
 #grass {
     background: url(../images/grass_bg.jpg) top left no-repeat;
@@ -104,10 +106,11 @@ nav {
     float: right;
     background: url(../images/menu_bg.jpg) top left no-repeat;
     width: 674px;
+    text-align: right;
 }
 #menu li {
     display: inline-block;
-    margin-left: 15px
+    margin-right: 15px
 }
 #menu a {
     color: #fff;
@@ -270,10 +273,6 @@ div#mymap {
     margin-bottom: 10px;
     text-align: justify;
 }
-.block {
-    width: 780px;
-    margin: 25px auto 0px auto;
-}
 ol {
     margin-left: 20px;
     line-height: 1.5;
@@ -309,7 +308,7 @@ ol ul li {
 }
 .metrika {
     float: left;
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
     text-align:center;
 }
@@ -324,10 +323,11 @@ ol ul li {
 }
 #menu {
     background: none;
+    width: 590px;
 }
 #menu li {
-    display: block;
-    float: left;
+    /*display: block;*/
+    /*float: left;*/
     padding: 0 1%;
     margin: 0px
 }
