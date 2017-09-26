@@ -19,7 +19,7 @@
         <p><a href="./contacts.php">Схема проезда</a></p>
     </div>
     <div id="copyright">
-        &copy; 2007 - <?php echo date('Y') ?> ООО &laquo;СКД&raquo;
+        &copy; ООО &laquo;СКД&raquo;
     </div>
     <div class="metrika">
         <!-- Yandex.Metrika informer -->
